@@ -9,6 +9,8 @@ const AboutUs = () => {
         fontSize: "1.2vw",
         gap: "5%",
         margin: "2vw 0",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
       <div>

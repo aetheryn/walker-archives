@@ -14,8 +14,6 @@ function App() {
       style={{
         display: "grid",
         backgroundColor: "black",
-        width: "100vw",
-        height: "100vh",
         justifyContent: "center",
         alignItems: "center",
       }}
@@ -23,9 +21,9 @@ function App() {
       <div
         style={{
           backgroundColor: "beige",
-          width: "80vw",
           borderRadius: "0.8vw",
           padding: "5vw",
+          margin: "10vw",
         }}
       >
         <Navbar></Navbar>
