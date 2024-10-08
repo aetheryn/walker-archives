@@ -6,12 +6,13 @@ import AboutUs from "./pages/AboutUs";
 import Archives from "./pages/Archives";
 import Team from "./pages/Team";
 import Rules from "./pages/Rules";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div
       style={{
-        display: "flex",
+        display: "grid",
         backgroundColor: "black",
         width: "100vw",
         height: "100vh",
@@ -37,6 +38,8 @@ function App() {
           <Route path="rules" element={<Rules></Rules>} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Routes>
+
+        <Footer></Footer>
       </div>
     </div>
   );
