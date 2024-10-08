@@ -25,10 +25,15 @@ const Main = () => {
         </p>
       </div>
 
-      <div style={{ backgroundColor: "blue" }}>
+      <div>
         <img
           src="https://phm.org.uk/wp-content/uploads/2018/05/LHASC-@-Peoples-History-Museum-004-960x535.jpg"
-          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            borderRadius: "0.8vw",
+          }}
         ></img>
       </div>
     </div>
