@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -13,14 +13,16 @@ const Navbar = () => {
         alignItems: "center",
       }}
     >
-      <img
-        src="/WA_11.png"
-        style={{
-          height: "5vw",
-          width: "auto",
-          float: "left",
-        }}
-      ></img>
+      <Link to="/">
+        <img
+          src="/WA_11.png"
+          style={{
+            height: "5vw",
+            width: "auto",
+            float: "left",
+          }}
+        ></img>
+      </Link>
 
       <div
         style={{
@@ -30,10 +32,30 @@ const Navbar = () => {
           textAlign: "right",
         }}
       >
-        <Link to="/about">About Us</Link>
-        <Link to="/archives">Archives</Link>
-        <Link to="/team">People</Link>
-        <Link to="/rules">Join Us</Link>
+        <NavLink
+          className={(navData) => (navData.isActive ? "active" : "")}
+          to="/about"
+        >
+          About Us
+        </NavLink>
+        <NavLink
+          className={(navData) => (navData.isActive ? "active" : "")}
+          to="/archives/list"
+        >
+          Archives
+        </NavLink>
+        <NavLink
+          className={(navData) => (navData.isActive ? "active" : "")}
+          to="/people"
+        >
+          People
+        </NavLink>
+        <NavLink
+          className={(navData) => (navData.isActive ? "active" : "")}
+          to="/rules"
+        >
+          Join Us
+        </NavLink>
       </div>
     </div>
   );
