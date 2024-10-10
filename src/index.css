@@ -17,6 +17,7 @@ body {
 
 img {
   filter: grayscale(80%);
+  border-radius: 0.8vw;
 }
 
 ol {
