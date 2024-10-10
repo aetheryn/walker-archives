@@ -18,7 +18,7 @@ const AboutUs = () => {
           style={{
             width: "100%",
             height: "100%",
-            objectFit: "cover",
+            objectFit: "contain",
             borderRadius: "0.8vw",
           }}
           src="https://images.squarespace-cdn.com/content/v1/6324802d2fb2bb196e51937d/4eb52c37-7138-4af7-ba6b-0e05666d296f/charleston-south-carolina-travel-guide48.jpg"

@@ -63,7 +63,7 @@ const Archive = () => {
             <div
               style={{
                 whiteSpace: "pre-wrap",
-                fontSize: "1vw",
+                fontSize: "1.2vw",
                 fontStyle: "italic",
               }}
             >
@@ -91,7 +91,7 @@ const Archive = () => {
 
         <div
           className="clickable"
-          style={{ fontSize: "1vw" }}
+          style={{ fontSize: "1.2vw" }}
           onClick={() => {
             handleClick();
           }}

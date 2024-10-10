@@ -33,7 +33,17 @@ const Archives = () => {
         })}
       </div>
 
-      <div></div>
+      <div>
+        <img
+          src="https://st.depositphotos.com/1007971/1378/i/450/depositphotos_13786331-stock-photo-files-on-shelf.jpg"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            borderRadius: "0.8vw",
+          }}
+        ></img>
+      </div>
     </div>
   );
 };

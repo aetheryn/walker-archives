@@ -28,7 +28,6 @@ const Team = () => {
             display: "grid",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: "1vw",
             textAlign: "center",
           }}
         >
@@ -46,7 +45,6 @@ const Team = () => {
             display: "grid",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: "1vw",
             textAlign: "center",
           }}
         >
@@ -64,7 +62,6 @@ const Team = () => {
             display: "grid",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: "1vw",
             textAlign: "center",
           }}
         >
@@ -93,7 +90,6 @@ const Team = () => {
             display: "grid",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: "1vw",
             textAlign: "center",
           }}
         >
@@ -111,7 +107,6 @@ const Team = () => {
             display: "grid",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: "1vw",
             textAlign: "center",
           }}
         >
