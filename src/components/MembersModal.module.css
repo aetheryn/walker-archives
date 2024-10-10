@@ -1,0 +1,36 @@
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 1.5vw;
+  /* background-image: linear-gradient(black, #404040); */
+}
+
+.modal {
+  display: grid;
+  position: fixed;
+  background-color: #fffaf0;
+  border-radius: 0.8vw;
+  left: 20%;
+  top: 10%;
+  width: 60%;
+  height: 80%;
+  z-index: 100;
+  /* justify-content: center; */
+  overflow: scroll;
+  padding: 5%;
+}
+
+.cancel {
+  border-color: #fffaf0;
+  background-color: transparent;
+  color: black;
+  text-align: right;
+}
+
+.cancel:hover {
+  border-color: #fffaf0;
+  color: red;
+}

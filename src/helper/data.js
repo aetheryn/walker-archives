@@ -8,7 +8,7 @@ const batches = [
     quote: "The rich can live forever, the poor die young.",
     codename: ["Time Keepers", "Citizens"],
     admins: "Martin Walker, Jerry Rogers",
-    citizens: [
+    members: [
       "T01-001: Iekami Getsuryuu",
       "T01-002: Alessia Devynn Llywelyn",
       "T01-003: Theodore Julien Foster",
@@ -57,7 +57,7 @@ const batches = [
     quote: "Protecting the country, the people, and their interests.",
     codename: ["Task Force Commanders", "Agents"],
     admins: "Martin Walker, Alexander Nolan",
-    citizens: [
+    members: [
       "WIS-003: Iekami Getsuryuu",
       "WIS-004: Nala Rivers",
       "WIS-005: Evander Damaris",
@@ -110,7 +110,7 @@ const batches = [
     quote: "Protecting the country, the people, and their interests.",
     codename: ["Task Force Commanders", "Agents"],
     admins: "Martin Walker, Alexander Nolan",
-    citizens: [
+    members: [
       "WIS-003: Iekami Getsuryuu",
       "WIS-004: Nala Rivers",
       "WIS-005: Evander Damaris",
@@ -163,7 +163,7 @@ const batches = [
     quote: "",
     codename: ["", ""],
     admins: "",
-    citizens: [
+    members: [
       "WIS-003: Iekami Getsuryuu",
       "WIS-004: Nala Rivers",
       "WIS-005: Evander Damaris",
@@ -216,7 +216,7 @@ const batches = [
     quote: "",
     codename: ["", ""],
     admins: "",
-    citizens: [
+    members: [
       "WIS-003: Iekami Getsuryuu",
       "WIS-004: Nala Rivers",
       "WIS-005: Evander Damaris",
@@ -269,7 +269,7 @@ const batches = [
     quote: "Keep the doors shut and your one eye open. You could be next.",
     codename: ["Detectives", "Townspeople"],
     admins: "Martin Walker, Jerry Rogers",
-    citizens: [
+    members: [
       "BRN-001: Aaralyne Cyra Anya",
       "BRN-002: Kaleia Serenity Lovelace",
       "BRN-003: Max Laurent",
