@@ -95,8 +95,7 @@ const Archive = () => {
           margin: "2vw 0",
           backgroundColor: "black",
           borderRadius: "0.8vw",
-          padding: "0 2vw",
-          height: "20vh",
+          padding: "2vh 5vw",
         }}
       >
         <div
@@ -108,7 +107,6 @@ const Archive = () => {
             alignItems: "center",
             padding: "0.8vw",
             backgroundColor: "black",
-            height: "20vh",
           }}
         >
           <div>
@@ -118,7 +116,7 @@ const Archive = () => {
                 height: "70%",
                 objectFit: "contain",
                 borderRadius: "0.8vw",
-                backgroundColor: "beige",
+                backgroundColor: "#fffaf0",
               }}
               src={batches[batch.id - 1].testimony.pic}
             ></img>
@@ -127,7 +125,7 @@ const Archive = () => {
           <div
             style={{
               fontSize: "0.8vw",
-              color: "beige",
+              color: "#fffaf0",
             }}
           >
             <span
@@ -169,7 +167,7 @@ const Archive = () => {
         {pages.map((page) => {
           return (
             <div
-              className={page == batch.id ? "unclickable" : "clickable"}
+              className={page == batch.id ? "unclickable" : "page-clickable"}
               style={{ gridRow: "1", gridColumn: Number(page + 1) }}
               onClick={() => goToPage(page)}
             >

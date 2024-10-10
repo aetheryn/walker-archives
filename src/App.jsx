@@ -24,8 +24,8 @@ function App() {
     >
       <div
         style={{
-          backgroundColor: "beige",
-          width: "80vw",
+          backgroundColor: "#fffaf0",
+          width: "90vw",
           borderRadius: "0.8vw",
           padding: "5vw",
         }}
