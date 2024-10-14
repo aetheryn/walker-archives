@@ -450,7 +450,7 @@ const batches = [
     ],
     testimony: {
       who: "Heidi Ejder",
-      pic: "../../public/heidi.png",
+      pic: "/heidi.png",
       highlight:
         "Would do it again and again tirelessly and be the Holmes of the year.",
       says: "Blackthorn Manor was a blast for me! It gives me a challenge to unveil everyone’s secrets by myself. It had me on the edge of my seat for ten days, waiting for any twists and turns and clues that may have helped me solve the secret with hundred percent accuracy to be right. Would do it again and again tirelessly and be the Holmes of the year.",
