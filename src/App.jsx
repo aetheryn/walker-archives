@@ -39,7 +39,7 @@ function App() {
           <Route path="archives/list" element={<Archives></Archives>} />
           <Route path="people" element={<Team></Team>} />
           <Route path="rules" element={<Rules></Rules>} />
-          <Route path="*" element={<Navigate replace to="/" />} />
+          {/* <Route path="*" element={<Navigate replace to="/" />} /> */}
         </Routes>
 
         <Footer></Footer>

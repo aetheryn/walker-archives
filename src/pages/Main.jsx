@@ -20,10 +20,11 @@ const Main = () => {
           <br />
           one archive at a time.
         </h2>
+        <br />
         <p style={{ textAlign: "justify" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud .
+          Uncover hidden stories of the past at Walker Archives, located in the
+          heart of South Carolina. Our extensive collection offers a unique
+          opportunity to explore different worlds through our archives.
         </p>
       </div>
 

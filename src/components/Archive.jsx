@@ -121,11 +121,11 @@ const Archive = () => {
               backgroundColor: "black",
             }}
           >
-            <div>
+            <div style={{ gridColumn: "1" }}>
               <img
                 style={{
                   width: "70%",
-                  height: "70%",
+                  height: "100%",
                   objectFit: "contain",
                   borderRadius: "0.8vw",
                   backgroundColor: "#fffaf0",

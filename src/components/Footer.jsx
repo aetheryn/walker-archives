@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -20,20 +21,20 @@ const Footer = () => {
           style={{
             gridRow: "1",
             gridColumn: "2",
-            display: "grid",
+            // display: "grid",
             textAlign: "right",
           }}
         >
           Have something on your mind? We're all ears! Reach out to us with your
-          queries or thoughts, and our team will respond as soon as possible.
-          <img
-            src="../../x.png"
-            style={{
-              height: "0.8vw",
-              justifySelf: "end",
-              margin: "0.1vw",
-            }}
-          ></img>
+          queries or thoughts, and our team will respond as soon as possible.{" "}
+          <a href="https://x.com/W_Archives/">
+            <img
+              src="../../x.png"
+              style={{
+                height: "0.8vw",
+              }}
+            ></img>
+          </a>
         </div>
       </div>
     </>
