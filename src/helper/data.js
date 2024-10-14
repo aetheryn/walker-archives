@@ -42,7 +42,7 @@ const batches = [
     ],
     testimony: {
       who: "Onyx Desiree Aphelion",
-      pic: "../../public/onyx.png",
+      pic: "/onyx.png",
       highlight:
         "The movie reference was so creatively placed,\nit was like a combination of In Time and The Hunger Games?",
       says: "TempsCommission was one of the first few agencies that awakened my love and passion to plot and develop my original character. I was given so many chances to socialize in the way too, and it made me gain a lot of new friends. The movie reference was so creatively placed, it was like a combination of Time and The Hunger Games? I love how the second part was centered on rebellion and revolution. Just as I thought it couldn’t get any better, you guys exceeded all my expectations and gave us a very enjoyable experience!",
@@ -82,7 +82,7 @@ const batches = [
     ],
     testimony: {
       who: "Iekami Getsuryuu",
-      pic: "../../public/ryuu.png",
+      pic: "/ryuu.png",
       highlight:
         "I’m glad I was there to witness all the new games an agency ever created.",
       says: "As a sequel from the first, Defeat The System had me running for my life with more intense tasks. This batch is also the first of many other tasks where we are required to have relations within the batch. I didn’t expect myself to be able to reach the Time Zones 0 at the end, but I’m glad I was there to witness all the new games an agency ever created. 100% would fight against Martin as timekeeper again.",
@@ -135,7 +135,7 @@ const batches = [
     ],
     testimony: {
       who: "Nala Rivers",
-      pic: "../../public/nala.png",
+      pic: "/nala.png",
       highlight:
         "One thing about Walker Archives, they will give you the chance to be someone you wouldn't even think about writing yourself.",
       says: "I loved playing agent! One thing about Walker Archives, they will give you the chance to be someone you wouldn't even think about writing yourself. Me, a translator? I wouldn't have imagined myself as a translator without their storyline and guidance. Oh, I had a badass codename too. The Ivy.",
@@ -187,7 +187,7 @@ const batches = [
     ],
     testimony: {
       who: "Valerian Ford",
-      pic: "../../public/valerian.png",
+      pic: "/valerian.png",
       highlight:
         "I remember trying to piece together the clues, acting like I had it all figured out, only to be hit with a jaw-dropping twist at the end.",
       says: "Blanc Private Detective—it was one hell of a ride, in the best way. Cracking riddles and suspecting each other—I remember trying to piece together the clues, acting like I had it all figured out, only to be hit with a jaw-dropping twist at the end. We love a good twist, especially when it involves a tangled romance between beautiful women and crime. Frankly speaking, Alexander Nolan deserved his tragic end!",
@@ -235,7 +235,7 @@ const batches = [
     ],
     testimony: {
       who: "Koshino Deura",
-      pic: "../../public/koko.png",
+      pic: "/koko.png",
       highlight:
         "I had heard that W is famous for their riddles, but surprisingly, Majority Feed still did amazingly without them.",
       says: "I was still considered a newcomer when Majority Feed happened, and it was only my second batch, as I remember. I had heard that W is famous for their riddles, but surprisingly, Majority Feed still did amazingly without them. It had a social media theme, and I enjoyed seeing people's secrets and embarrassing moments, as well as competing to receive upvotes. I was one of the winners by the end of the batch, so it's understandable why I love it, honestly!",
@@ -287,7 +287,7 @@ const batches = [
     ],
     testimony: {
       who: "Leonard Huo",
-      pic: "../../public/leo.png",
+      pic: "/leo.png",
       highlight:
         "Watching things unfold as I laid out the cards was quite an experience; it was both thrilling and nerve-wracking.",
       says: "Definitely my favorite batch for a reason (and not just because I got to be the main and only antagonist). Everyone cooked REALLY hard even though I too was being cooked, grilled, whatever you name it. Watching things unfold as I laid out the cards was quite an experience; it was both thrilling and nerve-wracking. Hands down one of my top favorite moments of writing in the community. To this day, I’m still amazed at how W thought of the idea to create Bereuenburg in the first place, let alone the riddes, the lore and everything else. Will I do it again? 100000/100. W Forever.",
@@ -342,7 +342,7 @@ const batches = [
     ],
     testimony: {
       who: "Claude Remy Crawford",
-      pic: "../../public/claude.png",
+      pic: "/claude.png",
       highlight:
         "But it’s not Walker if they didn’t add up a twist in the plot which is gagged me so hard!",
       says: "Actually TGA wasn’t not the first batch I joined, but if you asked me to list down my favorite batches then this one will go straight to #1! I will give it 9.5/10 (minus 0.5 points because I was stuck there). They didn’t lie when the brought the apartment theme with a ‘unique criteria’ for the tenants because everyone in TGA are unique and funny—I got a lot of fun interacting, playing and writing here. But it’s not Walker if they didn’t add up a twist in the plot which is gagged me so hard!",
@@ -396,7 +396,7 @@ const batches = [
     ],
     testimony: {
       who: "Atheana Madeline Reign",
-      pic: "../../public/atheana.png",
+      pic: "/atheana.png",
       highlight:
         "My brain got a workout in the most unexpected and entertaining ways!",
       says: "I finally jumped into Route 666 after skipping a bunch of W batches, and honestly, I was a little nervous. It had been ages since I joined an agency with plotting and riddle concepts, so I thought I’d be totally out of sync. But, it was a BLAST. The thrill of cracking the riddles, the anticipation of what surprise would drop next during the batch, and don’t even get me started on the plot twists. My brain got a workout in the most unexpected and entertaining ways. Seriously, 10/10 would do it all over again!",

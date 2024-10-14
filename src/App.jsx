@@ -1,13 +1,14 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Main from "./pages/Main";
-import AboutUs from "./pages/AboutUs";
-import Archives from "./pages/Archives";
-import Archive from "./components/Archive";
-import Team from "./pages/Team";
-import Rules from "./pages/Rules";
 import Footer from "./components/Footer";
+
+const Main = React.lazy(() => import("./pages/Main"));
+const AboutUs = React.lazy(() => import("./pages/AboutUs"));
+const Archives = React.lazy(() => import("./pages/Archives"));
+const Archive = React.lazy(() => import("./components/Archive"));
+const Team = React.lazy(() => import("./pages/Team"));
+const Rules = React.lazy(() => import("./pages/Rules"));
 
 function App() {
   return (
@@ -32,15 +33,17 @@ function App() {
       >
         <Navbar></Navbar>
 
-        <Routes>
-          <Route path="/" element={<Main></Main>} />
-          <Route path="about" element={<AboutUs></AboutUs>} />
-          <Route path="archives/:id" element={<Archive></Archive>} />
-          <Route path="archives/list" element={<Archives></Archives>} />
-          <Route path="people" element={<Team></Team>} />
-          <Route path="rules" element={<Rules></Rules>} />
-          {/* <Route path="*" element={<Navigate replace to="/" />} /> */}
-        </Routes>
+        <Suspense>
+          <Routes>
+            <Route path="/" element={<Main></Main>} />
+            <Route path="about" element={<AboutUs></AboutUs>} />
+            <Route path="archives/:id" element={<Archive></Archive>} />
+            <Route path="archives/list" element={<Archives></Archives>} />
+            <Route path="people" element={<Team></Team>} />
+            <Route path="rules" element={<Rules></Rules>} />
+            {/* <Route path="*" element={<Navigate replace to="/" />} /> */}
+          </Routes>
+        </Suspense>
 
         <Footer></Footer>
       </div>
