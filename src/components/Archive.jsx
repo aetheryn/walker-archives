@@ -30,7 +30,6 @@ const Archive = () => {
       {showModal ? (
         <MembersModal
           setShowModal={setShowModal}
-          membersCodename={batches[batch.id - 1].codename[1]}
           members={batches[batch.id - 1].members}
         ></MembersModal>
       ) : (
@@ -89,7 +88,7 @@ const Archive = () => {
 
         <p style={{ whiteSpace: "pre-wrap" }}>{batches[batch.id - 1].desc}</p>
 
-        <div
+        <p
           className="clickable"
           style={{ fontSize: "1.2vw" }}
           onClick={() => {
@@ -97,7 +96,7 @@ const Archive = () => {
           }}
         >
           Find the members here.
-        </div>
+        </p>
 
         <div
           style={{

@@ -20,7 +20,7 @@ const Main = () => {
           one archive at a time.
         </h2>
 
-        <p style={{ textAlign: "justify", marginTop: "2vw" }}>
+        <p>
           Uncover hidden stories of the past at Walker Archives, located in the
           heart of South Carolina. Our extensive collection offers a unique
           opportunity to explore different worlds through our archives.

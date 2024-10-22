@@ -6,7 +6,7 @@ const OverLay = (props) => {
   return (
     <div className={styles.backdrop} onClick={() => props.setShowModal(false)}>
       <div className={styles.modal}>
-        <h2>{props.membersCodename}</h2>
+        <h2>Members</h2>
 
         <br />
         <table>
@@ -28,7 +28,6 @@ const MembersModal = (props) => {
       {ReactDOM.createPortal(
         <OverLay
           setShowModal={props.setShowModal}
-          membersCodename={props.membersCodename}
           members={props.members}
         ></OverLay>,
         document.querySelector("#modal-root")

@@ -66,7 +66,7 @@ const Rules = () => {
             Registering double accounts is{" "}
             <span style={{ textDecoration: "underline" }}>
               strictly prohibited.
-            </span>
+            </span>{" "}
             If found in violation of this rule, you will be banned from
             participating in any of Walker Archives' agencies.
           </li>
