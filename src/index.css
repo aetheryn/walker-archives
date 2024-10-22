@@ -31,11 +31,13 @@ h2 {
 
 h3 {
   font-size: 1.6vw;
+  margin: 0;
 }
 
 p {
   font-size: 1.2vw;
   text-align: justify;
+  margin: 0;
 }
 
 a {

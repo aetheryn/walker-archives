@@ -96,7 +96,7 @@ const Archive = () => {
             handleClick();
           }}
         >
-          Find their {batches[batch.id - 1].codename[1].toLowerCase()} here.
+          Find the members here.
         </div>
 
         <div
