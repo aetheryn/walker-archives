@@ -12,8 +12,14 @@ const OverLay = (props) => {
         <table>
           {props.members.map((member) => (
             <tr>
-              <td style={{ fontWeight: "bold" }}>{member.split(":")[0]}</td>
-              <td>{member.split(":")[1]}</td>
+              {member.indexOf(":") !== -1 ? (
+                <>
+                  <td style={{ fontWeight: "bold" }}>{member.split(":")[0]}</td>
+                  <td>{member.split(":")[1]}</td>
+                </>
+              ) : (
+                <td>{member}</td>
+              )}
             </tr>
           ))}
         </table>

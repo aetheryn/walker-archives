@@ -175,7 +175,11 @@ const Archive = () => {
             className="toggle-page"
             style={{ gridRow: "1", gridColumn: "1" }}
           >
-            {batch.id != 1 && <button onClick={handleMinus}>&#8249;</button>}
+            {batch.id != 1 && (
+              <div className="page-clickable" onClick={handleMinus}>
+                &#8249;
+              </div>
+            )}
           </div>
 
           {pages.map((page) => {
@@ -195,7 +199,9 @@ const Archive = () => {
             style={{ gridRow: "1", gridColumn: pages.length + 2 }}
           >
             {batch.id != pages.length && (
-              <button onClick={handlePlus}>&#8250;</button>
+              <div className="page-clickable" onClick={handlePlus}>
+                &#8250;
+              </div>
             )}
           </div>
         </div>
