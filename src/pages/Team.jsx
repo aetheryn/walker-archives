@@ -34,7 +34,7 @@ const Team = () => {
         >
           <img
             style={{ width: "18vw", height: "24vw", objectFit: "cover" }}
-            src="https://images.mubicdn.net/images/cast_member/704521/cache-598020-1602736076/image-w856.jpg"
+            src="/Martin.png"
           ></img>
           <br />
           Martin Walker
@@ -51,7 +51,7 @@ const Team = () => {
         >
           <img
             style={{ width: "18vw", height: "24vw", objectFit: "cover" }}
-            src="https://i.pinimg.com/736x/90/cb/20/90cb20bf376f03def7b579922a930ace.jpg"
+            src="/Jerry.png"
           ></img>
           <br />
           Jerry Rogers
@@ -68,7 +68,7 @@ const Team = () => {
         >
           <img
             style={{ width: "18vw", height: "24vw", objectFit: "cover" }}
-            src="https://asianwiki.com/images/2/2e/Kim_Min-Kyu-1994-p1.jpg"
+            src="/Xander.png"
           ></img>
           <br />
           Alexander Nolan
@@ -96,7 +96,7 @@ const Team = () => {
         >
           <img
             style={{ width: "18vw", height: "24vw", objectFit: "cover" }}
-            src="https://pbs.twimg.com/media/FNP8odraMAEA9BX.jpg"
+            src="/Evie.png"
           ></img>
           <br />
           Evangeline Harper
@@ -113,7 +113,7 @@ const Team = () => {
         >
           <img
             style={{ width: "18vw", height: "24vw", objectFit: "cover" }}
-            src="https://i.namu.wiki/i/1fS8RDa9eIhgdQMIotCav-7vp_lmg0kxrRzI0m1GbNr2A_-AXpAvQD59Ohroi4FMxRy0y3es6esO1urWJ-IdOg.webp"
+            src="/Serena.png"
           ></img>
           <br />
           Serena Morgan
