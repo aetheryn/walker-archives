@@ -10,7 +10,7 @@ const Footer = () => {
           gridTemplate: "1 / 2",
           fontSize: "1vw",
           display: "grid",
-          gridGap: "20vw",
+          gridGap: "10vw",
           alignItems: "flex-end",
         }}
       >
