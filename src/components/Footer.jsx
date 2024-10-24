@@ -10,7 +10,7 @@ const Footer = () => {
           gridTemplate: "1 / 2",
           fontSize: "0.8vw",
           display: "grid",
-          gridGap: "30vw",
+          gridGap: "20vw",
           alignItems: "flex-end",
         }}
       >
@@ -25,8 +25,10 @@ const Footer = () => {
             textAlign: "right",
           }}
         >
-          Have something on your mind? We're all ears! Reach out to us with your
-          queries or thoughts, and our team will respond as soon as possible.{" "}
+          Have something on your mind? We're all ears!
+          <br />
+          Reach out to us with your queries or thoughts, and our team will
+          respond as soon as possible.{" "}
           <a href="https://x.com/W_Archives/">
             <img
               src="../../x.png"

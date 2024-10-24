@@ -20,7 +20,7 @@ const Archives = () => {
     >
       <div>
         <h2>The Archives</h2>
-        <p>
+        <p style={{ marginBottom: ".8vw" }}>
           Step into the worlds that were previously explored in the past
           batches. Uncover the stories and immerse yourself in the adventures.
         </p>
