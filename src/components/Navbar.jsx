@@ -7,7 +7,7 @@ const Navbar = () => {
       style={{
         height: "5vw",
         gridTemplate: "1 / 2",
-        fontSize: "1.2vw",
+        fontSize: "1.4vw",
         display: "grid",
         gridTemplateColumns: "repeat(2, auto)",
         alignItems: "center",

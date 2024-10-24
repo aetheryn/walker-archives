@@ -56,13 +56,13 @@ const Archive = () => {
           }}
         >
           <div style={{ gridRow: "1", gridColumn: "1" }}>
-            <div style={{ fontWeight: "bolder", fontSize: "2vw" }}>
+            <div style={{ fontWeight: "bolder", fontSize: "2.2vw" }}>
               {batches[batch.id - 1].name.toUpperCase()}
             </div>
             <div
               style={{
                 whiteSpace: "pre-wrap",
-                fontSize: "1.2vw",
+                fontSize: "1.4vw",
                 fontStyle: "italic",
               }}
             >
@@ -73,7 +73,7 @@ const Archive = () => {
             style={{
               gridRow: "1",
               gridColumn: "2",
-              fontSize: ".8vw",
+              fontSize: "1vw",
               textAlign: "right",
             }}
           >
@@ -91,7 +91,7 @@ const Archive = () => {
           <br />
           <span
             className="clickable"
-            style={{ fontSize: "1.2vw" }}
+            style={{ fontSize: "1.4vw" }}
             onClick={() => {
               handleClick();
             }}
@@ -137,13 +137,13 @@ const Archive = () => {
 
             <div
               style={{
-                fontSize: "0.8vw",
+                fontSize: "1vw",
                 color: "#fffaf0",
               }}
             >
               <span
                 style={{
-                  fontSize: "1vw",
+                  fontSize: "1.2vw",
                   fontWeight: "bold",
                 }}
               >
@@ -169,7 +169,7 @@ const Archive = () => {
             gridTemplate: "1/12",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: ".8vw",
+            fontSize: "1vw",
             gap: "2%",
           }}
         >

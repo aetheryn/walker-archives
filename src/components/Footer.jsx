@@ -8,7 +8,7 @@ const Footer = () => {
       <div
         style={{
           gridTemplate: "1 / 2",
-          fontSize: "0.8vw",
+          fontSize: "1vw",
           display: "grid",
           gridGap: "20vw",
           alignItems: "flex-end",

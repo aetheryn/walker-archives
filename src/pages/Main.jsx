@@ -7,7 +7,7 @@ const Main = () => {
       style={{
         display: "grid",
         gridTemplateColumns: "60% 35%",
-        fontSize: "1.2vw",
+        fontSize: "1.4vw",
         gap: "5%",
         margin: "2vw 0",
         justifyContent: "center",

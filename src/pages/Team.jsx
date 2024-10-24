@@ -6,7 +6,7 @@ const Team = () => {
       className="big-container"
       style={{
         display: "grid",
-        fontSize: "1.2vw",
+        fontSize: "1.4vw",
         margin: "2vw 0",
         textAlign: "center",
         gap: "2vh",

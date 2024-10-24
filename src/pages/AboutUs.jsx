@@ -7,7 +7,7 @@ const AboutUs = () => {
       style={{
         display: "grid",
         gridTemplateColumns: "35% 60%",
-        fontSize: "1.2vw",
+        fontSize: "1.4vw",
         gap: "5%",
         margin: "2vw 0",
         justifyContent: "center",
