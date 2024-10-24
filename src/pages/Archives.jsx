@@ -7,6 +7,7 @@ const Archives = () => {
 
   return (
     <div
+      className="big-container"
       style={{
         display: "grid",
         gridTemplateColumns: "60% 35%",

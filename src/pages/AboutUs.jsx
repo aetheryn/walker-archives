@@ -3,6 +3,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div
+      className="big-container"
       style={{
         display: "grid",
         gridTemplateColumns: "35% 60%",

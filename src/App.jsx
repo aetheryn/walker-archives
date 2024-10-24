@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 const Main = React.lazy(() => import("./pages/Main"));
 const AboutUs = React.lazy(() => import("./pages/AboutUs"));
@@ -32,6 +33,8 @@ function App() {
         }}
       >
         <Navbar></Navbar>
+
+        <ScrollToTop></ScrollToTop>
 
         <Suspense>
           <Routes>

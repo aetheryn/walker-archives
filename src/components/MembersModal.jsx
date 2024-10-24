@@ -4,7 +4,10 @@ import styles from "./MembersModal.module.css";
 
 const OverLay = (props) => {
   return (
-    <div className={styles.backdrop} onClick={() => props.setShowModal(false)}>
+    <div
+      className={`big-container ${styles.backdrop}`}
+      onClick={() => props.setShowModal(false)}
+    >
       <div className={styles.modal}>
         <h2>Members</h2>
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Rules = () => {
   return (
-    <div style={{ margin: "2vw 0" }}>
+    <div className="big-container" style={{ margin: "2vw 0" }}>
       <h2>Rules and Qualifications</h2>
 
       <p>

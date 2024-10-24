@@ -35,7 +35,7 @@ const Archive = () => {
       ) : (
         ""
       )}
-      <div style={{ margin: "2vw 0" }}>
+      <div key={batch} className="big-container" style={{ margin: "2vw 0" }}>
         <img
           src={batches[batch.id - 1].src}
           style={{
