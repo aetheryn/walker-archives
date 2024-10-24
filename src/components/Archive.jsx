@@ -86,16 +86,18 @@ const Archive = () => {
           </div>
         </div>
 
-        <p style={{ whiteSpace: "pre-wrap" }}>{batches[batch.id - 1].desc}</p>
-
-        <p
-          className="clickable"
-          style={{ fontSize: "1.2vw" }}
-          onClick={() => {
-            handleClick();
-          }}
-        >
-          Find the members here.
+        <p style={{ whiteSpace: "pre-wrap" }}>
+          {batches[batch.id - 1].desc} <br />
+          <br />
+          <span
+            className="clickable"
+            style={{ fontSize: "1.2vw" }}
+            onClick={() => {
+              handleClick();
+            }}
+          >
+            Find the members here.
+          </span>
         </p>
 
         <div
