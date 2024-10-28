@@ -27,17 +27,24 @@ const Membership = () => {
         to join the Walker Archives writing community, among other benefits.
       </p>
 
-      <div style={{ display: "inline" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "flex-start",
+          justifyContent: "left",
+          margin: "auto",
+        }}
+      >
         <img
           src="/search.png"
           style={{
             height: "2.4vw",
+            marginRight: "1vw",
           }}
         />
         <input
           id="search"
           value={searchInput}
-          className="col-5"
           type="text"
           placeholder="Search based on OC name..."
           onChange={(event) => {
@@ -50,6 +57,9 @@ const Membership = () => {
             borderColor: "black",
             backgroundColor: "transparent",
             borderRadius: ".8vw",
+            borderWidth: ".2vw",
+            width: "50%",
+            borderStyle: "solid",
           }}
         ></input>
       </div>
@@ -64,6 +74,7 @@ const Membership = () => {
             backgroundColor: "black",
             textAlign: "center",
             color: "#fffaf0",
+            fontSize: "1.4vw",
           }}
         >
           <th>
@@ -86,7 +97,7 @@ const Membership = () => {
 
         {displayedList.map((entry) => {
           return (
-            <tr>
+            <tr style={{ fontSize: "1.4vw" }}>
               <td>{entry.name}</td>
               <td>WLKR{entry.id}</td>
             </tr>
