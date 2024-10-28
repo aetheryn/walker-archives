@@ -447,4 +447,26 @@ const batches = [
   },
 ];
 
-export { batches };
+const members = [
+  { id: "0101", name: "Iekami Getsuryuu" },
+  { id: "0102", name: "Cassius Lim Navarone" },
+  { id: "0103", name: "Onyx Desiree Aphelion" },
+  { id: "0104", name: "Valerian Ford" },
+  { id: "0105", name: "Hera Remington" },
+  { id: "0106", name: "Samara Dardenne" },
+  { id: "0301", name: "Veronica Quinn" },
+  { id: "0302", name: "Eveline Mae" },
+  { id: "0401", name: "Koshino Deura" },
+  { id: "0402", name: "Benjamin Chase" },
+  { id: "0403", name: "Lillianne Liu" },
+  { id: "0404", name: "Elise Marlene" },
+  { id: "0405", name: "Gwynyth Olivia Lynford" },
+  { id: "0406", name: "Henry Kane" },
+  { id: "0407", name: "Helena Elmeira" },
+  { id: "0408", name: "Finn O’Brien" },
+  { id: "0409", name: "Khione Aetherius " },
+  { id: "0410", name: "Reo Eridanus Sterling" },
+  { id: "0411", name: "Viviane Leung" },
+];
+
+export { batches, members };

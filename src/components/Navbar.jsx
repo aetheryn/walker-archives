@@ -27,7 +27,7 @@ const Navbar = () => {
       <div
         style={{
           display: "inline-grid",
-          gridTemplateColumns: "repeat(4, auto)",
+          gridTemplateColumns: "repeat(5, auto)",
           alignItems: "center",
           textAlign: "right",
         }}
@@ -55,6 +55,12 @@ const Navbar = () => {
           to="/rules"
         >
           Join Us
+        </NavLink>
+        <NavLink
+          className={(navData) => (navData.isActive ? "active" : "")}
+          to="/members"
+        >
+          Membership
         </NavLink>
       </div>
     </div>

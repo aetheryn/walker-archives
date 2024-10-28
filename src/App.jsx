@@ -10,6 +10,7 @@ const Archives = React.lazy(() => import("./pages/Archives"));
 const Archive = React.lazy(() => import("./components/Archive"));
 const Team = React.lazy(() => import("./pages/Team"));
 const Rules = React.lazy(() => import("./pages/Rules"));
+const Membership = React.lazy(() => import("./pages/Membership"));
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
             <Route path="archives/list" element={<Archives></Archives>} />
             <Route path="people" element={<Team></Team>} />
             <Route path="rules" element={<Rules></Rules>} />
-            {/* <Route path="*" element={<Navigate replace to="/" />} /> */}
+            <Route path="members" element={<Membership></Membership>} />
+            <Route path="*" element={<Navigate replace to="/" />} />
           </Routes>
         </Suspense>
 
