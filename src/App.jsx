@@ -26,6 +26,7 @@ function App() {
       }}
     >
       <div
+        className="page"
         style={{
           backgroundColor: "#fffaf0",
           width: "90vw",

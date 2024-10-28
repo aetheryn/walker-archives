@@ -111,3 +111,7 @@ div.toggle-page > button:hover {
     opacity: 100;
   }
 }
+
+.member-list > tr:nth-child(odd) {
+  background-color: #e5e0d7;
+}

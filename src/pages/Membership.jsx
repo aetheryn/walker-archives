@@ -31,8 +31,6 @@ const Membership = () => {
         <img
           src="/search.png"
           style={{
-            // gridRow: "1",
-            // gridColumn: "1",
             height: "2.4vw",
           }}
         />
@@ -56,7 +54,10 @@ const Membership = () => {
         ></input>
       </div>
 
-      <table style={{ width: "100%", marginTop: ".8vw" }}>
+      <table
+        style={{ width: "100%", marginTop: ".8vw" }}
+        className="member-list"
+      >
         <tr
           style={{
             height: "2.4vw",
@@ -65,8 +66,22 @@ const Membership = () => {
             color: "#fffaf0",
           }}
         >
-          <th>Name</th>
-          <th>ID</th>
+          <th>
+            Name
+            {/* <img
+              src="/sort.png"
+              style={{ height: "1.2vw" }}
+              onClick={handleSortName}
+            ></img> */}
+          </th>
+          <th>
+            ID
+            {/* <img
+              src="/sort.png"
+              style={{ height: "1.2vw" }}
+              onClick={handleSortId}
+            ></img> */}
+          </th>
         </tr>
 
         {displayedList.map((entry) => {
