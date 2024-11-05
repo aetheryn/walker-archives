@@ -454,6 +454,7 @@ const members = [
   { id: "0104", name: "Valerian Ford" },
   { id: "0105", name: "Hera Remington" },
   { id: "0106", name: "Samara Dardenne" },
+  { id: "0107", name: "Maxine Briar" },
   { id: "0301", name: "Veronica Quinn" },
   { id: "0302", name: "Eveline Mae" },
   { id: "0401", name: "Koshino Deura" },
