@@ -488,6 +488,7 @@ const members = [
   { id: "0609", name: "Visenya" },
   { id: "0610", name: "Sarah Gibbs" },
   { id: "0611", name: "Eleianna Ivy Jacqueline" },
+  { id: "0612", name: "Lynne Odessa Kirstein" },
   { id: "0701", name: "Kaiden Zhang" },
   { id: "0702", name: "Jett Thorns" },
   { id: "0703", name: "Claude Remy Crawford" },
@@ -495,6 +496,7 @@ const members = [
   { id: "0705", name: "Johnny LouIse Wolff" },
   { id: "0706", name: "Maevis Katz Mourish" },
   { id: "0707", name: "Uno Jovanovic" },
+  { id: "0708", name: "Ace Daryl" },
   { id: "0801", name: "Heidi Ejder" },
   { id: "0802", name: "Millie Horne" },
   { id: "0803", name: "Ezra Hayes" },
@@ -512,6 +514,7 @@ const members = [
   { id: "0906", name: "Ryder Vaughn" },
   { id: "0907", name: "Shalimar Amari" },
   { id: "0908", name: "Aether Dahlberg" },
+  { id: "0909", name: "Violet Bridget" },
 ];
 
 export { batches, members };
