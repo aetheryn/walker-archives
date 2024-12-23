@@ -559,6 +559,7 @@ const members = [
   { id: "0808", name: "Tanaka Keigo" },
   { id: "0809", name: "Juan Shim" },
   { id: "0810", name: "Adrain Myles Schandré" },
+  { id: "0811", name: "Kuroshima Miko" },
   { id: "0901", name: "Shiloh Hayes" },
   { id: "0902", name: "Mezoya Liu" },
   { id: "0903", name: "Ralph-Prince Theodore" },
